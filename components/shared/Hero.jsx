@@ -10,34 +10,44 @@ const Hero = () => {
         <div className="relative pt-12 md:pt-24">
           <div className="container px-4 mx-auto">
             <div className="relative max-w-lg md:max-w-3xl mx-auto text-center">
-              <h1 className="tracking-tight text-4xl xs:text-5xl md:text-7xl lg:text-8xl font-bold text-white mb-6">
-                <span className="leading-none">Content writing,</span>
+              <h1 className="tracking-tight text-4xl xs:text-5xl md:text-7xl lg:text-6xl font-bold text-white mb-6">
+                <span className="leading-none">Get A</span>
                 <span className="text-gray-400">
                   <br />
-                  with a <span className="underline">twist</span>.
+                  Smooth & Secured Browsing
+                </span>
+                <span className="text-gray-400">
+                  <br />
+                  In Seconds
                 </span>
               </h1>
               <p className="md:max-w-md lg:max-w-lg mx-auto text-lg text-gray-400 mb-10">
-                We hired the top 1% of writers so you don&apos;t have to. Get
-                high quality articles &amp; posts in just 3 days.
+              See Beyond the Illusion: A Shield Against Dark Pattern Manipulation!
               </p>
               <div className="xs:flex items-center max-w-md mx-auto mb-6">
-                <input
+                {/* <input
                   className="w-full h-12 mb-3 xs:mb-0 xs:mr-3 p-3 text-gray-400 placeholder-gray-500 bg-gray-800 outline-none ring ring-transparent focus:ring-yellowGreen-700 rounded-lg"
                   type="email"
                   placeholder="Your email"
                   id="email"
-                />
+                /> */}
 
                 <button
                   className="xs:flex-shrink-0 group relative flex xs:inline-flex w-full xs:w-auto items-center justify-center px-5 h-12 font-bold text-gray-900 bg-primary rounded-lg transition-all duration-300 focus:outline-none"
                   type="submit"
                 >
                   <div className="absolute top-0 left-0 w-full h-full rounded-lg ring ring-yellowGreen-900 animate-pulse group-hover:ring-0 transition duration-300"></div>
-                  <span>Get Started</span>
+                  <span>Download</span>
+                </button>
+                <button
+                  className="xs:flex-shrink-0 group relative flex xs:inline-flex w-full xs:w-auto items-center mt-2 justify-center px-5 h-12 font-bold text-gray-900 bg-primary rounded-lg transition-all duration-300 focus:outline-none"
+                  type="submit"
+                >
+                  <div className="absolute top-0  left-0 w-full h-full rounded-lg ring ring-yellowGreen-900 animate-pulse group-hover:ring-0 transition duration-300"></div>
+                  <span>Watch Tutorial  </span>
                 </button>
               </div>
-              <div className="flex flex-col xs:flex-row items-center justify-center">
+              {/* <div className="flex flex-col xs:flex-row items-center justify-center">
                 <span className="block text-sm text-gray-400 opacity-50">
                   7-day money-back guarantee
                 </span>
@@ -75,10 +85,10 @@ const Hero = () => {
                 <span className="block text-sm text-gray-400 opacity-50">
                   Unlimited revisions
                 </span>
-              </div>
+              </div> */}
             </div>
 
-            <Image height={600} width={1100} className="block mx-auto mt-12 md:mt-28 xl:-6" src={header} alt="" />
+            {/* <Image height={600} width={1100} className="block mx-auto mt-12 md:mt-28 xl:-6" src={header} alt="" /> */}
           </div>
         </div>
       </section>

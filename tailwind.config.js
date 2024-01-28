@@ -41,7 +41,7 @@ module.exports = {
       "sunset",
       {
         oneSecond: {
-          "primary": "#a3e33a",
+          "primary": "#8F43EF",
           "secondary": "#000000",
           "accent": "#9caba2",
           "neutral": "#171926",

@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import left from "../../assets/left.png";
+// import left from "../../assets/left.png";
 
 const Features = () => {
   return (

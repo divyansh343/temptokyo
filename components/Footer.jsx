@@ -16,7 +16,7 @@ const Footer = () => {
                   >
                      <Image height={60} width={60} className="h-10 w-10 rounded-lg" src={logo} alt="" />
 
-                    <p>Tokyo</p>
+                    <p>Shadow</p>
                   </a>
                   <span className="block text-lg  max-w-xs mt-6">
                     We hired the top 1% of writers so you dont have to. Get high
@@ -34,7 +34,7 @@ const Footer = () => {
                       <li className="mb-6">
                         <a
                           className="inline-block text-lg  hover:"
-                          href="/agencies"
+                          href=""
                         >
                           Agencies
                         </a>
@@ -65,7 +65,7 @@ const Footer = () => {
                       <li className="mb-6">
                         <a
                           className="inline-block text-lg  hover:"
-                          href="/about"
+                          href=""
                         >
                           About
                         </a>
@@ -74,7 +74,7 @@ const Footer = () => {
                       <li className="flex items-center mb-6">
                         <a
                           className="inline-block mr-2 text-lg  hover:"
-                          href="/careers"
+                          href=""
                         >
                           <span>Careers</span>
                         </a>
@@ -96,7 +96,7 @@ const Footer = () => {
                       <li>
                         <a
                           className="inline-block text-lg  hover:"
-                          href="/contact"
+                          href=""
                         >
                           Contact Sales
                         </a>

@@ -8,10 +8,10 @@ const Pricing = () => {
           <div className="max-w-sm md:max-w-md lg:max-w-7xl mx-auto">
             <div className="text-center mb-16">
               <h1 className=" tracking-tight text-4xl sm:text-5xl font-bold text-white mb-4">
-                Affordable bulk pricing
+               Cross Platform protection
               </h1>
               <p className="text-lg ">
-                Our content scales with your business.
+                Pricing
               </p>
             </div>
             <div className="flex flex-wrap">
@@ -78,21 +78,21 @@ const Pricing = () => {
                       </svg>
                     </span>
                     <span className="text-base font-semibold text-white uppercase">
-                      Starter
+                   Basic
                     </span>
                   </div>
                   <div className="flex items-end mb-4">
                     <span className="mr-2 text-5xl font-semibold text-white tracking-tighter">
-                      $0.09
+                      Free
                     </span>
-                    <span className="inline-block pb-2 text-lg ">
+                    {/* <span className="inline-block pb-2 text-lg ">
                       /word
-                    </span>
+                    </span> */}
                   </div>
                   <span className="block  mb-8">
-                    For individuals or freelancers.
+                   Enjoy the security for free with almost all pro Features.
                   </span>
-                  <div className="p-4 mb-8 border border-teal-800 rounded-xl">
+                  {/* <div className="p-4 mb-8 border border-teal-800 rounded-xl">
                     <div className="mb-4">
                       <span className="text-white font-medium">No-risk&nbsp;</span>
                       <span className="font-medium ">
@@ -105,7 +105,7 @@ const Pricing = () => {
                       </span>
                       <span className="font-medium ">words</span>
                     </div>
-                  </div>
+                  </div> */}
                   <a
                     className="group flex justify-center w-full h-12 p-1 text-center text-base text-white font-semibold rounded-lg"
                     href="https://app.Tokyo.com"
@@ -146,7 +146,7 @@ const Pricing = () => {
                   </div>
                 </div>
               </div>
-              <div className="w-full lg:w-1/3 mb-12 lg:mb-0 md:px-4">
+              {/* <div className="w-full lg:w-1/3 mb-12 lg:mb-0 md:px-4">
                 <div className="relative p-8 mb-10 bg-white border text-gray-800 border-gray-100 rounded-xl shadow-sm">
                   <span className="absolute top-0 right-0 m-8 inline-block px-2.5 leading-relaxed text-sm text-white bg-gray-800 uppercase rounded-full">
                     Popular
@@ -347,7 +347,7 @@ const Pricing = () => {
                     </p>
                   </div>
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
