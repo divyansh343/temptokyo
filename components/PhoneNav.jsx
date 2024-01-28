@@ -52,14 +52,7 @@ const PhoneNav = ({ setNav }) => {
                     How it works
                   </a>
                 </li>
-                <li className="mr-9">
-                  <a
-                    className="inline-block text-sm font-medium text-opacity-80 hover:text-gray-200"
-                    href="#"
-                  >
-                    Pricing
-                  </a>
-                </li>
+       
                 <li className="mr-9">
                   <a
                     className="inline-block text-sm font-medium text-opacity-80 hover:text-gray-200"

@@ -3,7 +3,7 @@ import React from "react";
 import blog1 from "../../assets/blogs/blog1.jpg";
 import blog2 from "../../assets/blogs/blog2.jpg";
 import blog3 from "../../assets/blogs/blog3.jpg";
-import portrait from "../../assets/portrait.jpeg";
+import portrait from "../../assets/portrait.jpg";
 
 const Blogs = () => {
   return (

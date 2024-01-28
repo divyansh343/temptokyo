@@ -8,10 +8,10 @@ const Testimonials = () => {
           <div className="max-w-sm md:max-w-7xl mx-auto">
             <div className="max-w-2xl mx-auto mb-20 text-center">
               <span className="inline-flex items-center h-6 mb-4 px-2 text-xs uppercase font-medium text-teal-50 bg-gray-800/60 rounded-full">
-              Crowdsourcing
+                Crowdsourcing
               </span>
               <h1 className="tracking-tight text-4xl sm:text-5xl font-bold text-white">
-              Comments
+                Comments
               </h1>
             </div>
             <div className="flex flex-wrap">
@@ -20,17 +20,16 @@ const Testimonials = () => {
                   <div className="flex items-center justify-between mb-8 pb-8 border-b border-gray-700">
                     <div>
                       <span className="block text-base font-semibold text-white">
-                        Zak Blake
+                        Danish Siddiqui
                       </span>
                       <span className="text-base text-gray-400">
-                        CTO at Scaling With Systems
+                        Student at Jabalpur engineering  college
                       </span>
                     </div>
                   </div>
                   <div>
                     <p className="text-2xl font-semibold text-white">
-                      &quot;Clean, simple, and easy to use. I love it! Tripling
-                      our content volume was a breeze.&quot;
+                      &quot;Clean, simple, and easy to use. I love it!&quot;
                     </p>
                   </div>
                 </div>
@@ -40,17 +39,16 @@ const Testimonials = () => {
                   <div className="flex items-center justify-between mb-8 pb-8 border-b border-gray-700">
                     <div>
                       <span className="block text-base font-semibold text-white">
-                        Albert Kim
+                        Anushka Sharma
                       </span>
                       <span className="text-base text-gray-400">
-                        CEO at Greenline POS
+                      Student at Jabalpur engineering  college
                       </span>
                     </div>
                   </div>
                   <div>
                     <p className="text-2xl font-semibold text-white">
-                      &quot;Working with freelancers was frustrating and
-                      inefficient - Tokyo solved that for us.&quot;
+                      &quot;It makes browsing a lot easier&quot;
                     </p>
                   </div>
                 </div>
@@ -60,17 +58,16 @@ const Testimonials = () => {
                   <div className="flex items-center justify-between mb-8 pb-8 border-b border-gray-700">
                     <div>
                       <span className="block text-base font-semibold text-white">
-                        Scott Douglas Clary
+                        Adarsh Tiwari
                       </span>
                       <span className="text-base text-gray-400">
-                        Founder at Success Story Podcast
+                      Student at Jabalpur engineering  college
                       </span>
                     </div>
                   </div>
                   <div>
                     <p className="text-2xl font-semibold text-white">
-                      &quot;Their research, quality of copy and ability to turn
-                      around complex projects quickly is second to none.&quot;
+                      &quot;Make a lot of friends&quot;
                     </p>
                   </div>
                 </div>
@@ -89,9 +86,7 @@ const Testimonials = () => {
                   </div>
                   <div>
                     <p className="text-2xl font-semibold text-white">
-                      &quot;Crypto is a very nuanced subject to write on, but
-                      Tokyo consistently crushes whatever I throw their
-                      way.&quot;
+                      &quot;It makes consumer aware of the fraud practices&quot;
                     </p>
                   </div>
                 </div>
@@ -111,7 +106,7 @@ const Testimonials = () => {
                   <div>
                     <p className="text-2xl font-semibold text-white">
                       &quot;Like magic. They just *get* our voice, tone, and
-                      company. Email marketing has never been so easy.&quot;
+                      company. &quot;
                     </p>
                   </div>
                 </div>
@@ -131,7 +126,7 @@ const Testimonials = () => {
                   <div>
                     <p className="text-2xl font-semibold text-white">
                       &quot;Exceptional and timely. If you&apos;re not working
-                      with Tokyo, you&apos;re missing out.&quot;
+                     you&apos;re missing out.&quot;
                     </p>
                   </div>
                 </div>

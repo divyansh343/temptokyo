@@ -19,8 +19,9 @@ const sucess = () => {
               </h1>
               <p class="text-white mt-6 md:w-1/2 mx-auto"></p>
             </div>
+              Your report has been Recorded and Submitted to
+              <span className="text-lg"> Goverment Of India</span>
             <div class="mt-6">
-              
               <div class="inline-flex flex-wrap items-center mt-8">
                 
                 <Link

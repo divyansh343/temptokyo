@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import portrait from "../../assets/portrait.jpeg";
+import portrait from "../../assets/portrait.jpg";
 import Link from "next/link";
 
 const Contact = () => {
@@ -20,8 +20,8 @@ const Contact = () => {
                   <Image className="block rounded-xl mb-8 w-12" src={portrait} alt="" />
 
                   <p className="font-medium text-white mb-4">
-                    &quot;Their research, quality of copy and ability to turn
-                    around complex projects quickly is second to none.&quot;
+                    &quot;
+                    Cookies play a crucial role in web security by facilitating user authentication, session management, and personalization on websites.&quot;
                   </p>
                   <span className="">Scott Clary, Founder</span>
                 </div>
@@ -87,17 +87,17 @@ const Contact = () => {
                       placeholder="Enter your message"
                     ></textarea>
                   </div> */}
-                  <Link    href="/features">
-                  <button
-                    className="group relative w-32 px-4 py-3  p-px font-bold bg-primary
+                  <Link href="/features">
+                    <button
+                      className="group relative w-32 px-4 py-3  p-px font-bold bg-primary
                     text-gray-900 rounded-lg transition-all duration-300 focus:outline-none"
-                 
-                  >
-                    <div className="absolute top-0 left-0 w-full h-full rounded-lg ring ring-primary animate-pulse group-hover:ring-0 transition duration-300">
-                      
-                    </div>
-                    <span className="">Get Started</span>
-                  </button>
+
+                    >
+                      <div className="absolute top-0 left-0 w-full h-full rounded-lg ring ring-primary animate-pulse group-hover:ring-0 transition duration-300">
+
+                      </div>
+                      <span className="">Get Started</span>
+                    </button>
                   </Link>
                 </form>
               </div>

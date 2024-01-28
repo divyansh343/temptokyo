@@ -30,13 +30,18 @@ const Features = () => {
               >
                 Generate Report
               </Link>
+              <p
+                class="rounded-lg px-4 border py-2 mx-2 mt-2 md:mt-0 text-sm font-semibold transition-all cursor-pointer flex items-center justify-center bg-vulcan-900 text-white hover:text-indigo-400 h-10 border-vulcan-700"
+              >
+                Terms & condition analysis
+              </p>
             </div>
           </div>
           <div class="lg:mt-0 mt-12 h-full">
             {/* <img alt="Lexington thumbnail" class="rounded-2xl shadow-2xl shadow-vulcan-950/50 w-full" src="/assets/card2.svg"> */}
           </div>
         </div>
-        <ul
+        {/* <ul
           class="grid grid-cols-2 gap-6 mt-12 list-none md:grid-cols-4 lg:gap-12 lg:mt-24"
           role="list"
         >
@@ -93,7 +98,7 @@ const Features = () => {
               Our platform includes an allergen filtering feature.
             </div>
           </li>
-        </ul>
+        </ul> */}
       </div>
     </div>
   );

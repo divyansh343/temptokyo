@@ -35,7 +35,7 @@ const Footer = () => {
                           className="inline-block text-lg  hover:"
                           href=""
                         >
-                          Agencies
+                          Ad Blocker
                         </a>
                       </li>
                       <li className="mb-6">
@@ -43,7 +43,7 @@ const Footer = () => {
                           className="inline-block text-lg  hover:"
                           href="#services"
                         >
-                          Services
+                          Terms & Conditon analysis
                         </a>
                       </li>
                       <li className="mb-6">
@@ -51,7 +51,7 @@ const Footer = () => {
                           className="inline-block text-lg  hover:"
                           href="#"
                         >
-                          Pricing
+                          Faq
                         </a>
                       </li>
                     </ul>
@@ -75,29 +75,15 @@ const Footer = () => {
                           className="inline-block mr-2 text-lg  hover:"
                           href=""
                         >
-                          <span>Careers</span>
+                          <span>Blog</span>
                         </a>
-                        <span className="inline-flex h-6 px-2 items-center  bg-teal-600 rounded-full">
-                          <svg
-                            width="8"
-                            height="8"
-                            viewBox="0 0 8 8"
-                            fill="none"
-                            xmlns="http://www.w3.org/2000/svg"
-                          >
-                            <circle cx="4" cy="4" r="3" fill="white"></circle>
-                          </svg>
-                          <span className="ml-0.5 text-xs text-gray-50">
-                            Hiring
-                          </span>
-                        </span>
                       </li>
                       <li>
                         <a
                           className="inline-block text-lg  hover:"
                           href=""
                         >
-                          Contact Sales
+                          Contact us
                         </a>
                       </li>
                     </ul>
@@ -141,10 +127,10 @@ const Footer = () => {
         </div>
         <div className="container px-4 mx-auto">
           <div className="md:flex items-center justify-between">
-            <p className=" mb-10 md:mb-0">
+            {/* <p className=" mb-10 md:mb-0">
               Made with love ❤️ © 2023 Tokyo. All rights reserved.
-            </p>
-            <div className="flex items-center">
+            </p> */}
+            {/* <div className="flex items-center">
               <a
                 className="inline-flex w-10 h-10 p-2 mr-3  hover:text-teal-500 items-center justify-center bg-gray-800 rounded-full transition duration-100"
                 href="https://ca.linkedin.com/company/Tokyo"
@@ -196,7 +182,7 @@ const Footer = () => {
                   ></path>
                 </svg>
               </a>
-            </div>
+            </div> */}
           </div>
         </div>
       </section>

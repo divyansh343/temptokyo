@@ -60,13 +60,7 @@ const Navbar = () => {
                 >
                   How it works
                 </a>
-                <a
-                  className="inline-block  hover:text-teal-400 mr-10"
-                  href="#"
-                >
-                  Pricing
-                </a>
-
+          
                 <a
                   className="inline-block  hover:text-teal-400 mr-10"
                   href="#"
@@ -77,7 +71,7 @@ const Navbar = () => {
                   className="inline-block  hover:text-teal-400"
                   href="#"
                 >
-                  Contact Sales
+                  Contact 
                 </a>
               </div>
               <div className="hidden lg:block ml-12">
