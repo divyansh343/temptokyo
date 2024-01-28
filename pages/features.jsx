@@ -10,7 +10,6 @@ const Features = () => {
           <div className="flex flex-wrap">
             <div className="w-full md:w-1/2 lg:w-7/12 px-4 order-last md:order-first">
               <div>
-                <Image className="block" src={left} alt="" />
               </div>
             </div>
             <div className="w-full md:w-1/2 lg:w-5/12 mb-16 md:mb-0">
