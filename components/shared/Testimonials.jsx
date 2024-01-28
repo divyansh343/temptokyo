@@ -8,10 +8,10 @@ const Testimonials = () => {
           <div className="max-w-sm md:max-w-7xl mx-auto">
             <div className="max-w-2xl mx-auto mb-20 text-center">
               <span className="inline-flex items-center h-6 mb-4 px-2 text-xs uppercase font-medium text-teal-50 bg-gray-800/60 rounded-full">
-                TESTIMONIALS
+              Crowdsourcing
               </span>
               <h1 className="tracking-tight text-4xl sm:text-5xl font-bold text-white">
-                Companies really love us
+              Comments
               </h1>
             </div>
             <div className="flex flex-wrap">

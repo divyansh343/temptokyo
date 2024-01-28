@@ -1,6 +1,7 @@
 import Image from "next/image";
 import React from "react";
 import header from "../../assets/brand_header.png";
+import Link from "next/link";
 
 const Hero = () => {
   return (
@@ -37,15 +38,17 @@ const Hero = () => {
                   type="submit"
                 >
                   <div className="absolute top-0 left-0 w-full h-full rounded-lg ring ring-yellowGreen-900 animate-pulse group-hover:ring-0 transition duration-300"></div>
-                  <span>Download</span>
+                  <span className="text-gray-300">Download</span>
                 </button>
+                <Link href="/login">
                 <button
                   className="xs:flex-shrink-0 group relative flex xs:inline-flex w-full xs:w-auto items-center mt-2 justify-center px-5 h-12 font-bold text-gray-900 bg-primary rounded-lg transition-all duration-300 focus:outline-none"
-                  type="submit"
+               
                 >
                   <div className="absolute top-0  left-0 w-full h-full rounded-lg ring ring-yellowGreen-900 animate-pulse group-hover:ring-0 transition duration-300"></div>
-                  <span>Watch Tutorial  </span>
+                  <span className="text-gray-300">Login  </span>
                 </button>
+                </Link>
               </div>
               {/* <div className="flex flex-col xs:flex-row items-center justify-center">
                 <span className="block text-sm text-gray-400 opacity-50">

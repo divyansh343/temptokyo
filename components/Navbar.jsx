@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import PhoneNav from "./PhoneNav";
 import logo from "../assets/logo.png"
 import Image from "next/image";
+import Link from "next/link";
 
 const Navbar = () => {
   const [navON, setNav] = useState(false)
@@ -12,13 +13,13 @@ const Navbar = () => {
         <nav className="relative">
           <div className="container mx-auto px-4 font-display">
             <div className="relative flex h-24 items-center">
-              <a
+              <Link
                 className="flex space-x-2 items-center  text-xl font-bold"
-                href=""
+                href="/"
               >
                   <Image height={60} width={60} className="h-10 w-10   mr-1" src={logo} alt="" />
                 <p className="font-bold">SHADOW</p>
-              </a>
+              </Link>
 
               <button onClick={()=>setNav(true)} className="lg:hidden navbar-burger flex items-center justify-center h-10 w-10 ml-auto border border-teal-900 bg-teal-200 bg-opacity-30 hover:bg-teal-700 rounded-lg">
               
@@ -80,12 +81,12 @@ const Navbar = () => {
                 </a>
               </div>
               <div className="hidden lg:block ml-12">
-                <a
+                <Link
                   className="inline-flex items-center justify-center h-10 mr-4 px-4 text-center text-sm  font-semibold border border-gray-800 hover:bg-gray-900 rounded-lg"
-                  href="#"
+                  href="/login"
                 >
                   Login
-                </a>
+                </Link>
                 <a
                   className="group inline-block justify-center p-1 text-center text-sm  font-semibold rounded-lg"
                   href="#"

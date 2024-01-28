@@ -1,97 +1,100 @@
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 // import left from "../../assets/left.png";
 
 const Features = () => {
   return (
     <div>
-      <section className="relative py-12 md:py-24 ">
-        <div className="relative z-10 container px-4 mx-auto">
-          <div className="flex flex-wrap">
-            <div className="w-full md:w-1/2 lg:w-7/12 px-4 order-last md:order-first">
-              <div>
-              </div>
-            </div>
-            <div className="w-full md:w-1/2 lg:w-5/12 mb-16 md:mb-0">
-              <div className="md:max-w-lg">
-                <div className="pb-10 mb-10 border-b border-teal-800">
-                  <div className="max-w-md mb-10">
-                    <h1 className=" tracking-tight text-4xl sm:text-5xl font-bold text-white mb-4">
-                      Quit the busywork &amp; get back to growth
-                    </h1>
-                    <p className="text-gray-400">
-                      You&apos;re an affiliate site, agency, or SaaS company.
-                      Why waste your time hiring and managing when you could be
-                      focusing on growth? That&apos;s where we come in.
-                    </p>
-                  </div>
-                  <a
-                    className="group inline-block justify-center p-1 text-center text-base text-white font-semibold rounded-lg"
-                    href="/about"
-                  >
-                    <div className="inline-flex items-stretch h-12 p-0.5 rounded-lg bg-gradient-to-b from-gray-500 via-gray-700 to-gray-700 hover:to-gray-800">
-                      <div className="flex items-center px-4 bg-gray-700 group-hover:bg-opacity-40 rounded-md transition duration-300">
-                        <span className="mr-2">Learn more</span>
-                        <span className="transform group-hover:translate-x-1 transition duration-300">
-                          <svg
-                            width="20"
-                            height="20"
-                            viewBox="0 0 20 20"
-                            fill="none"
-                            xmlns="http://www.w3.org/2000/svg"
-                          >
-                            <path
-                              d="M7.5 5L12.5 10L7.5 15"
-                              stroke="white"
-                              stroke-width="1.5"
-                              stroke-linecap="round"
-                              stroke-linejoin="round"
-                            ></path>
-                          </svg>
-                        </span>
-                      </div>
-                    </div>
-                  </a>
-                </div>
-                <div className="max-w-md mb-10">
-                  <span className="block mb-5">
-                    <svg
-                      width="13"
-                      height="9"
-                      viewBox="0 0 13 9"
-                      fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path
-                        d="M6.18 0.939999L4.32 8.02H0.24L3.18 0.939999H6.18ZM12.06 0.939999L10.2 8.02H6.12L9.03 0.939999H12.06Z"
-                        fill="white"
-                      ></path>
-                    </svg>
-                  </span>
-                  <p className="font-medium text-white">
-                    Clean, simple, and easy to use. I love it! Tripling volume
-                    was a breeze, and quality has never been better.
-                  </p>
-                </div>
-                <div className="xs:flex items-center justify-between">
-                  <div className="flex items-center mb-6 xs:mb-0">
-                    {/* <img className="block w-10 h-10 rounded-full" src="zak_blake.png" alt=""> */}
-                    <div className="ml-4">
-                      <span className="block text-sm font-semibold text-white mb-1">
-                        Zak Blake
-                      </span>
-                      <span className="block text-xs text-gray-400">
-                        Former CTO, Scaling With Systems
-                      </span>
-                    </div>
-                  </div>
-                </div>
-              </div>
+      <div class="max-w-7xl px-8 md:px-12  mx-auto py-12 lg:py-24 relative space-y-24">
+
+        <div class="grid grid-cols-1 gap-4 mt-6 list-none lg:grid-cols-2 lg:gap-24">
+
+          <div>
+
+            <p class="text-sm text-transparent uppercase bg-gradient-to-r from-indigo-300 to-indigo-400 bg-clip-text">
+              Features            </p>
+            <p class="text-3xl mt-8 font-normal text-white trackingt-tight">
+              Seamlessly embrace the convenience and security
+            </p>
+            <p class="mt-4 text-base text-vulcan-300">
+              Our advanced digital  solution, enabling you to make secure
+              and streamlined web across various merchants, both online
+              and offline.
+            </p>
+            <div class="flex flex-wrap mt-10">
+
+              <Link
+                href="/report"
+                class="rounded-lg px-4 border py-2 text-sm font-semibold transition-all flex items-center justify-center bg-vulcan-900 text-white hover:text-indigo-400 h-10 border-vulcan-700"
+              >
+                Generate Report
+              </Link>
             </div>
           </div>
+          <div class="lg:mt-0 mt-12 h-full">
+            {/* <img alt="Lexington thumbnail" class="rounded-2xl shadow-2xl shadow-vulcan-950/50 w-full" src="/assets/card2.svg"> */}
+          </div>
         </div>
-        {/* <img className="absolute bottom-0 right-0 opacity-80" src="aurora-assets/features/shadow-blur-right.png" alt=""> */}
-      </section>
+        <ul
+          class="grid grid-cols-2 gap-6 mt-12 list-none md:grid-cols-4 lg:gap-12 lg:mt-24"
+          role="list"
+        >
+
+          <li>
+
+            <div>
+
+              <p class="text-sm font-medium text-indigo-400">01.</p>
+              <p class="text-lg mt-6 font-medium text-white lg:text-xl">
+                User-friendly Interface
+              </p>
+            </div>
+            <div class="mt-2 text-base text-vulcan-300">
+              Our platform is designed with the user in mind.
+            </div>
+          </li>
+          <li>
+
+            <div>
+
+              <p class="text-sm font-medium text-indigo-400">02.</p>
+              <p class="text-lg mt-6 font-medium text-white lg:text-xl">
+                Customizable
+              </p>
+            </div>
+            <div class="mt-2 text-base text-vulcan-300">
+              Our platform allows for customizable branding.
+            </div>
+          </li>
+          <li>
+
+            <div>
+
+              <p class="text-sm font-medium text-indigo-400">03.</p>
+              <p class="text-lg mt-6 font-medium text-white lg:text-xl">
+                Scheduled Orders
+              </p>
+            </div>
+            <div class="mt-2 text-base text-vulcan-300">
+              Our platform allows for scheduled orders.
+            </div>
+          </li>
+          <li>
+
+            <div>
+
+              <p class="text-sm font-medium text-indigo-400">04.</p>
+              <p class="text-lg mt-6 font-medium text-white lg:text-xl">
+                Allergen Filtering
+              </p>
+            </div>
+            <div class="mt-2 text-base text-vulcan-300">
+              Our platform includes an allergen filtering feature.
+            </div>
+          </li>
+        </ul>
+      </div>
     </div>
   );
 };

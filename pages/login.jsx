@@ -1,9 +1,11 @@
-import React from 'react'
+import Contact from '@/components/shared/Contact'
+import React, { useState } from 'react'
 
-const login = () => {
+const Login = () => {
+
   return (
-    <div>login</div>
+  <Contact />
   )
 }
 
-export default login
+export default Login

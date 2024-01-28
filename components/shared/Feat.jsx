@@ -12,8 +12,8 @@ const Feat = () => {
 
           <span class="text-blue-400"> Features</span>
           <h2 class="text-3xl tracking-tighter mt-6 font-light lg:text-4xl text-white">
-          Making your website Secured is just the start. < br />
-With shadow you can go all the way             {/* <span class="md:block text-zinc-400">for complex data</span> */}
+            Making your website Secured is just the start. < br />
+            With shadow you can go all the way             {/* <span class="md:block text-zinc-400">for complex data</span> */}
           </h2>
           {/* <p class="mt-4 text-base text-white max-w-md">
             Make informed decisions with our comparative analysis charts.
@@ -85,11 +85,13 @@ With shadow you can go all the way             {/* <span class="md:block text-zi
                             <path d="M9 12l2 2l4 -4"></path>
                           </svg>
                           <p class="font-medium leading-6 text-lg text-white mt-24">
-                            Capitalize
+                            Ad Blocking
                           </p>
                           <p class="text-md mt-2 text-zinc-300">
-                            Tap into capital opportunities spanning various
-                            industries, including SaaS.
+                            Blocks all ads including video ads,
+                            Interstitial ads and floating ads, etc and
+                            remove ANY unwanted elements from
+                            the page.
                           </p>
                         </div>
                       </figure>
@@ -122,11 +124,12 @@ With shadow you can go all the way             {/* <span class="md:block text-zi
                             <path d="M9 12l2 2l4 -4"></path>
                           </svg>
                           <p class="font-medium leading-6 text-lg text-white mt-24">
-                            Accelerate
+                            AI Review Detection
                           </p>
                           <p class="text-md mt-2 text-zinc-300">
-                            Boost customer acquisition by streamlining financing
-                            processes for enhanced convenience.
+                            Protect you from false AI generated
+                            reviews from the page. Provide ONLY
+                            genuine reviews.
                           </p>
                         </div>
                       </figure>
@@ -159,11 +162,9 @@ With shadow you can go all the way             {/* <span class="md:block text-zi
                             <path d="M9 12l2 2l4 -4"></path>
                           </svg>
                           <p class="font-medium leading-6 text-lg text-white mt-24">
-                            Gain Insights
-                          </p>
+                            Cookie Blocker                          </p>
                           <p class="text-md mt-2 text-zinc-300">
-                            Gain valuable insights into the well-being of your
-                            customer base and uncover growth opportunities.
+                            By selectively blocking cookies you can prevent websites from tracking you online behavior and personal information
                           </p>
                         </div>
                       </figure>
@@ -196,11 +197,14 @@ With shadow you can go all the way             {/* <span class="md:block text-zi
                             <path d="M9 12l2 2l4 -4"></path>
                           </svg>
                           <p class="font-medium leading-6 text-lg text-white mt-24">
-                            Flourish
+                            Terms and Conditions
+                            Suspicion Detection
                           </p>
                           <p class="text-md mt-2 text-zinc-300">
-                            Develop a new revenue stream that aligns seamlessly
-                            with your primary growth objectives.
+                            Suspicion detection act as powerful
+                            bacons, illuminating potential pitfalls
+                            and empowering us to navigate it with
+                            Informed Vigilance.
                           </p>
                         </div>
                       </figure>

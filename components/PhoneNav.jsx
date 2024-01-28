@@ -14,9 +14,7 @@ const PhoneNav = ({ setNav }) => {
                 <div className="w-auto p-2">
                   <a className="flex space-x-4 items-center" href="#">
                   <Image height={60} width={60} className="h-10 w-10 rounded-lg" src={logo} alt="" />
-                    <span className="text-white font-bold text-xl">
-                      Tokyo
-                    </span>
+                  <p className="font-bold">SHADOW</p>
                   </a>
                 </div>
                 <div className="w-auto p-2">

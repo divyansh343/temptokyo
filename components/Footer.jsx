@@ -19,8 +19,7 @@ const Footer = () => {
                     <p>Shadow</p>
                   </a>
                   <span className="block text-lg  max-w-xs mt-6">
-                    We hired the top 1% of writers so you dont have to. Get high
-                    quality articles &amp; posts in just 3 days.
+                  Contribute to a safer online environment by reporting and sharing instances of deceptive designs
                   </span>
                 </div>
               </div>
