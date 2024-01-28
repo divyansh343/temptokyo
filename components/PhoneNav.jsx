@@ -1,6 +1,7 @@
 import Image from "next/image";
 import React from "react";
 import logo from "../assets/logo.png"
+import Link from "next/link";
 
 const PhoneNav = ({ setNav }) => {
   return (
@@ -76,24 +77,24 @@ const PhoneNav = ({ setNav }) => {
                   </a>
                 </li>
                 <li>
-                  <a
+                  <Link
                     className="inline-block text-sm font-medium text-opacity-80 hover:text-gray-200"
-                    href=""
+                    href="/login"
                   >
                     Login
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>
             <div className="flex flex-col justify-end w-full pb-8">
               <div className="flex flex-wrap -m-2">
-                <a
-                  href=""
+                <Link
+                  href="/login"
                   className="xs:flex-shrink-0 group relative flex xs:inline-flex w-full xs:w-auto items-center justify-center px-5 h-12 font-bold bg-pr rounded-lg transition-all duration-300 focus:outline-none"
                 >
                   <div className="absolute top-0 left-0 w-full h-full rounded-lg ring ring-primary hover:bg-primary/30 animate-pulse group-hover:ring-0 transition duration-300"></div>
-                  <span>Get Started</span>
-                </a>
+                  <span>Login</span>
+                </Link>
               </div>
             </div>
           </div>

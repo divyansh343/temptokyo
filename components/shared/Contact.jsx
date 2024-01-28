@@ -96,7 +96,7 @@ const Contact = () => {
                     <div className="absolute top-0 left-0 w-full h-full rounded-lg ring ring-primary animate-pulse group-hover:ring-0 transition duration-300">
                       
                     </div>
-                    <span className="">Submit</span>
+                    <span className="">Get Started</span>
                   </button>
                   </Link>
                 </form>

@@ -91,11 +91,11 @@ const Navbar = () => {
                   className="group inline-block justify-center p-1 text-center text-sm  font-semibold rounded-lg"
                   href="#"
                 >
-                  <div className="inline-flex items-stretch h-10 p-0.5 rounded-lg bg-gradient-to-b from-gray-500 via-gray-700 to-gray-700 hover:to-gray-800">
+                  {/* <div className="inline-flex items-stretch h-10 p-0.5 rounded-lg bg-gradient-to-b from-gray-500 via-gray-700 to-gray-700 hover:to-gray-800">
                     <div className="flex items-center px-4 bg-gray-700 group-hover:bg-opacity-40 rounded-md transition duration-300">
                       <span>Get Started</span>
                     </div>
-                  </div>
+                  </div> */}
                 </a>
               </div>
             </div>
