@@ -17,8 +17,7 @@ const Navbar = () => {
                 className="flex space-x-2 items-center  text-xl font-bold"
                 href="/"
               >
-                  <Image height={60} width={60} className="h-10 w-10   mr-1" src={logo} alt="" />
-                <p className="font-bold">SHADOW</p>
+                  <Image height={60} width={110} className="h-5  mr-1" src={logo} alt="" />
               </Link>
 
               <button onClick={()=>setNav(true)} className="lg:hidden navbar-burger flex items-center justify-center h-10 w-10 ml-auto border border-teal-900 bg-teal-200 bg-opacity-30 hover:bg-teal-700 rounded-lg">

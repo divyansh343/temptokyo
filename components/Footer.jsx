@@ -14,9 +14,7 @@ const Footer = () => {
                     className="flex space-x-2 items-center  text-xl font-bold"
                     href=""
                   >
-                     <Image height={60} width={60} className="h-10 w-10 rounded-lg" src={logo} alt="" />
-
-                    <p>Shadow</p>
+                      <Image height={60} width={110} className="h-5  mr-1" src={logo} alt="" />
                   </a>
                   <span className="block text-lg  max-w-xs mt-6">
                   Contribute to a safer online environment by reporting and sharing instances of deceptive designs

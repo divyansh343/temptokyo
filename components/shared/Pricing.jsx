@@ -108,7 +108,7 @@ const Pricing = () => {
                   </div> */}
                   <a
                     className="group flex justify-center w-full h-12 p-1 text-center text-base text-white font-semibold rounded-lg"
-                    href="https://app.Tokyo.com"
+                    href="#"
                   >
                     <div className="inline-flex items-stretch w-full h-12 p-0.5 rounded-lg bg-gradient-to-b from-gray-500 via-gray-700 to-gray-700 hover:to-gray-800">
                       <div className="flex w-full items-center justify-center px-4 bg-gray-700 group-hover:bg-opacity-40 rounded-md transition duration-300">
